@@ -27,7 +27,7 @@ Use `unittest.TestCase`, `test_*.py` files, and descriptive `test_*` methods. Ad
 
 ## Commit & Pull Request Guidelines
 
-Git history currently contains only `Initial commit`, so no established message convention exists. Use concise, imperative summaries. Keep changes focused. PR descriptions should explain the behavior change, link relevant issues, and report test commands and outcomes. Include sample CLI output when changing user-visible behavior.
+Use semantic commit prefixes (`feat:`, `fix:`, `docs:`, `refactor:`, `test:`, `chore:`) followed by concise, imperative summaries. Keep changes focused. PR descriptions should explain the behavior change, link relevant issues, and report test commands and outcomes. Include sample CLI output when changing user-visible behavior.
 
 ## Agent-Specific Instructions
 

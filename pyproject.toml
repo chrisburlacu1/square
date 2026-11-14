@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "square"
+version = "0.1.0"
+description = "Square (.square): Standalone Recursive Agent Harnessing for Coding Agents"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+square = "square.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["square*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
